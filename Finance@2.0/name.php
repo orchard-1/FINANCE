@@ -11,6 +11,6 @@
                     $name=readline("Enter A Valid Customer name :"); 
                 }
             }while(!preg_match('/^[a-zA-Z]+\s[a-zA-z]*/i', $name));
-         return $name;
+         
     }
 ?>
